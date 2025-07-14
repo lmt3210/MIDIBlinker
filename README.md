@@ -1,4 +1,4 @@
-![Icon](https://www.larrymtaylor.com/images/blink-128.png)  
+![Icon](https://www.larrymtaylor.com/images/blink-black-128.png)  
 # MIDIBlinker
 
 ## Description
