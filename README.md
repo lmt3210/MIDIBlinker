@@ -10,6 +10,10 @@ based on MIDI input. One practical use is as a visual metronome.
 
 Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
 
+## Dependencies
+MIDIBlinker requires LTCommon. It is available on GitHib 
+[here](https://github.com/lmt3210/LTCommon).
+
 ## Credits
 
 Application icon created by [Freepik - Flaticon](https://www.flaticon.com/free-icons/idea)

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4612905129E1B910006D4302 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4612904D29E1B910006D4302 /* LTPopup.xib */; };
+		4612905229E1B910006D4302 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 4612904F29E1B910006D4302 /* LTVersionCheck.m */; };
+		4612905329E1B910006D4302 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 4612905029E1B910006D4302 /* LTPopup.m */; };
 		4636F41429C104DF006CFB3E /* blink-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636F40D29C104DF006CFB3E /* blink-32.png */; };
 		4636F41529C104DF006CFB3E /* blink-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636F40E29C104DF006CFB3E /* blink-512.png */; };
 		4636F41629C104DF006CFB3E /* blink-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4636F40F29C104DF006CFB3E /* blink-256.png */; };
@@ -20,14 +23,17 @@
 		4649A2FD26DCF8B6006A38B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4649A2FC26DCF8B6006A38B8 /* main.m */; };
 		4649A30A26DD8EAA006A38B8 /* LTPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4649A30826DD8EAA006A38B8 /* LTPrefs.m */; };
 		4649A30B26DD8EAA006A38B8 /* LTPrefs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4649A30926DD8EAA006A38B8 /* LTPrefs.xib */; };
-		46690C3E2E1FE21F00194C95 /* LTPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C3A2E1FE21F00194C95 /* LTPopup.m */; };
-		46690C3F2E1FE21F00194C95 /* LTVersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 46690C3D2E1FE21F00194C95 /* LTVersionCheck.m */; };
-		46690C402E1FE21F00194C95 /* LTPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46690C3B2E1FE21F00194C95 /* LTPopup.xib */; };
 		46BDD5D5299D43FF006FF928 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5D4299D43FF006FF928 /* Credits.html */; };
 		46BDD5E5299D73D1006FF928 /* help in Resources */ = {isa = PBXBuildFile; fileRef = 46BDD5E4299D73D1006FF928 /* help */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4612904C29E1B910006D4302 /* LTPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPopup.h; sourceTree = "<group>"; };
+		4612904D29E1B910006D4302 /* LTPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTPopup.xib; sourceTree = "<group>"; };
+		4612904E29E1B910006D4302 /* LTVersionCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTVersionCheck.h; sourceTree = "<group>"; };
+		4612904F29E1B910006D4302 /* LTVersionCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTVersionCheck.m; sourceTree = "<group>"; };
+		4612905029E1B910006D4302 /* LTPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPopup.m; sourceTree = "<group>"; };
+		462F8DD926E1877500B31B1A /* LTMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMidi.h; sourceTree = "<group>"; };
 		4636F40D29C104DF006CFB3E /* blink-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink-32.png"; sourceTree = "<group>"; };
 		4636F40E29C104DF006CFB3E /* blink-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink-512.png"; sourceTree = "<group>"; };
 		4636F40F29C104DF006CFB3E /* blink-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink-256.png"; sourceTree = "<group>"; };
@@ -35,6 +41,7 @@
 		4636F41129C104DF006CFB3E /* blink-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink-128.png"; sourceTree = "<group>"; };
 		4636F41229C104DF006CFB3E /* blink-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink-64.png"; sourceTree = "<group>"; };
 		4636F41329C104DF006CFB3E /* blink-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blink-1024.png"; sourceTree = "<group>"; };
+		463852E42D8B1AE6001302A4 /* LTColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTColors.h; sourceTree = "<group>"; };
 		4649A2F026DCF8B5006A38B8 /* MIDIBlinker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDIBlinker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4649A2F326DCF8B5006A38B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4649A2F426DCF8B5006A38B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,16 +53,9 @@
 		4649A30726DD8EAA006A38B8 /* LTPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPrefs.h; sourceTree = "<group>"; };
 		4649A30826DD8EAA006A38B8 /* LTPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPrefs.m; sourceTree = "<group>"; };
 		4649A30926DD8EAA006A38B8 /* LTPrefs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTPrefs.xib; sourceTree = "<group>"; };
-		46690B862E1F1DE800194C95 /* LTColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTColors.h; sourceTree = "<group>"; };
-		46690BD32E1FCF9D00194C95 /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
-		46690BE72E1FD34600194C95 /* LTMidi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMidi.h; sourceTree = "<group>"; };
-		46690C392E1FE21F00194C95 /* LTPopup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTPopup.h; sourceTree = "<group>"; };
-		46690C3A2E1FE21F00194C95 /* LTPopup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTPopup.m; sourceTree = "<group>"; };
-		46690C3B2E1FE21F00194C95 /* LTPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LTPopup.xib; sourceTree = "<group>"; };
-		46690C3C2E1FE21F00194C95 /* LTVersionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTVersionCheck.h; sourceTree = "<group>"; };
-		46690C3D2E1FE21F00194C95 /* LTVersionCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTVersionCheck.m; sourceTree = "<group>"; };
 		46BDD5D4299D43FF006FF928 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 		46BDD5E4299D73D1006FF928 /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; path = help; sourceTree = "<group>"; };
+		46C4BB9E29A000E9004F9F2D /* LTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLog.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +85,27 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		462F8DD726E1874E00B31B1A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				46C4BB9E29A000E9004F9F2D /* LTLog.h */,
+				462F8DD926E1877500B31B1A /* LTMidi.h */,
+				463852E42D8B1AE6001302A4 /* LTColors.h */,
+				4612904E29E1B910006D4302 /* LTVersionCheck.h */,
+				4612904F29E1B910006D4302 /* LTVersionCheck.m */,
+				4612904C29E1B910006D4302 /* LTPopup.h */,
+				4612905029E1B910006D4302 /* LTPopup.m */,
+				4612904D29E1B910006D4302 /* LTPopup.xib */,
+			);
+			name = Common;
+			path = ../LTCommon;
+			sourceTree = "<group>";
+		};
 		4649A2E726DCF8B5006A38B8 = {
 			isa = PBXGroup;
 			children = (
 				4649A2F226DCF8B5006A38B8 /* Source */,
+				462F8DD726E1874E00B31B1A /* Common */,
 				462F8DC826E1802800B31B1A /* Resources */,
 				4649A2F126DCF8B5006A38B8 /* Products */,
 			);
@@ -111,14 +128,6 @@
 				4649A30726DD8EAA006A38B8 /* LTPrefs.h */,
 				4649A30826DD8EAA006A38B8 /* LTPrefs.m */,
 				4649A30926DD8EAA006A38B8 /* LTPrefs.xib */,
-				46690C3C2E1FE21F00194C95 /* LTVersionCheck.h */,
-				46690C3D2E1FE21F00194C95 /* LTVersionCheck.m */,
-				46690C392E1FE21F00194C95 /* LTPopup.h */,
-				46690C3A2E1FE21F00194C95 /* LTPopup.m */,
-				46690C3B2E1FE21F00194C95 /* LTPopup.xib */,
-				46690BE72E1FD34600194C95 /* LTMidi.h */,
-				46690B862E1F1DE800194C95 /* LTColors.h */,
-				46690BD32E1FCF9D00194C95 /* LTLog.h */,
 				4649A2FC26DCF8B6006A38B8 /* main.m */,
 				4649A2F626DCF8B6006A38B8 /* Assets.xcassets */,
 				4649A2F826DCF8B6006A38B8 /* MainMenu.xib */,
@@ -194,7 +203,7 @@
 				4649A2F726DCF8B6006A38B8 /* Assets.xcassets in Resources */,
 				4636F41929C104DF006CFB3E /* blink-64.png in Resources */,
 				4636F41829C104DF006CFB3E /* blink-128.png in Resources */,
-				46690C402E1FE21F00194C95 /* LTPopup.xib in Resources */,
+				4612905129E1B910006D4302 /* LTPopup.xib in Resources */,
 				46BDD5E5299D73D1006FF928 /* help in Resources */,
 				4636F41629C104DF006CFB3E /* blink-256.png in Resources */,
 				4649A30B26DD8EAA006A38B8 /* LTPrefs.xib in Resources */,
@@ -212,8 +221,8 @@
 				4649A30A26DD8EAA006A38B8 /* LTPrefs.m in Sources */,
 				4649A2FD26DCF8B6006A38B8 /* main.m in Sources */,
 				4649A2F526DCF8B5006A38B8 /* AppDelegate.m in Sources */,
-				46690C3E2E1FE21F00194C95 /* LTPopup.m in Sources */,
-				46690C3F2E1FE21F00194C95 /* LTVersionCheck.m in Sources */,
+				4612905329E1B910006D4302 /* LTPopup.m in Sources */,
+				4612905229E1B910006D4302 /* LTVersionCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
