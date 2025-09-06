@@ -6,10 +6,6 @@
 MIDIBlinker is an application that displays up to 99 different colors 
 based on MIDI input. One practical use is as a visual metronome.
 
-## Downloads
-
-Releases can be downloaded [here](https://www.larrymtaylor.com/software.php).
-
 ## Dependencies
 MIDIBlinker requires LTCommon. It is available on GitHib 
 [here](https://github.com/lmt3210/LTCommon).
